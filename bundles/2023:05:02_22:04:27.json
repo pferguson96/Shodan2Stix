@@ -1,0 +1,1581 @@
+{
+    "type": "bundle",
+    "id": "bundle--6f57da80-583a-413e-a600-ecfb65f1fe4f",
+    "objects": [
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f",
+            "created": "2023-05-02T20:04:27.465806Z",
+            "modified": "2023-05-02T20:04:27.465806Z",
+            "name": "Cobalt Strike Beacon Infrastructure",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ]
+        },
+        {
+            "type": "tool",
+            "spec_version": "2.1",
+            "id": "tool--185c53fa-c397-4022-928a-d76ab5c0cd07",
+            "created": "2023-05-02T20:04:27.466891Z",
+            "modified": "2023-05-02T20:04:27.466891Z",
+            "name": "Cobalt Strike Beacon",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e56ff0c2-6bf6-4fb0-8f18-35dec598de21",
+            "created": "2023-05-02T20:04:27.46854Z",
+            "modified": "2023-05-02T20:04:27.46854Z",
+            "name": "34.91.186.44",
+            "pattern": "[ipv4-addr:value = '34.91.186.44']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.46854Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--123b4982-a1ca-4bf5-9dea-a789ecc6004c",
+            "created": "2023-05-02T20:04:27.481137Z",
+            "modified": "2023-05-02T20:04:27.481137Z",
+            "name": "64.227.64.6",
+            "pattern": "[ipv4-addr:value = '64.227.64.6']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.481137Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c82a1c7e-43c5-4a76-9ec0-afa80c976709",
+            "created": "2023-05-02T20:04:27.482574Z",
+            "modified": "2023-05-02T20:04:27.482574Z",
+            "name": "173.38.212.108",
+            "pattern": "[ipv4-addr:value = '173.38.212.108']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.482574Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--6da4f1ae-b822-4dc9-b3d2-6a36eb389b0b",
+            "created": "2023-05-02T20:04:27.483948Z",
+            "modified": "2023-05-02T20:04:27.483948Z",
+            "name": "81.161.229.120",
+            "pattern": "[ipv4-addr:value = '81.161.229.120']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.483948Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--1159f138-2e24-4fa0-b871-eeed97e3864c",
+            "created": "2023-05-02T20:04:27.485127Z",
+            "modified": "2023-05-02T20:04:27.485127Z",
+            "name": "68.183.2.29",
+            "pattern": "[ipv4-addr:value = '68.183.2.29']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.485127Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--3d175ad0-6dbe-4348-a790-3123bd8a012e",
+            "created": "2023-05-02T20:04:27.486043Z",
+            "modified": "2023-05-02T20:04:27.486043Z",
+            "name": "80.113.9.221",
+            "pattern": "[ipv4-addr:value = '80.113.9.221']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.486043Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--9ee1130e-ba72-4b41-ac8a-9d0747fc328e",
+            "created": "2023-05-02T20:04:27.486953Z",
+            "modified": "2023-05-02T20:04:27.486953Z",
+            "name": "185.254.37.224",
+            "pattern": "[ipv4-addr:value = '185.254.37.224']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.486953Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--40efeed6-4384-45c6-b748-cf9d7ba5cf60",
+            "created": "2023-05-02T20:04:27.487961Z",
+            "modified": "2023-05-02T20:04:27.487961Z",
+            "name": "5.188.86.194",
+            "pattern": "[ipv4-addr:value = '5.188.86.194']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.487961Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--45b60aa0-10a3-4650-b251-68ad6462ae2f",
+            "created": "2023-05-02T20:04:27.489096Z",
+            "modified": "2023-05-02T20:04:27.489096Z",
+            "name": "5.188.86.227",
+            "pattern": "[ipv4-addr:value = '5.188.86.227']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.489096Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--01e83e4d-8706-42c4-a4ac-30a81ef1d972",
+            "created": "2023-05-02T20:04:27.490017Z",
+            "modified": "2023-05-02T20:04:27.490017Z",
+            "name": "5.188.86.194",
+            "pattern": "[ipv4-addr:value = '5.188.86.194']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.490017Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b3bace10-830d-4bc5-b6b9-9e79b830e48b",
+            "created": "2023-05-02T20:04:27.490912Z",
+            "modified": "2023-05-02T20:04:27.490912Z",
+            "name": "5.188.86.194",
+            "pattern": "[ipv4-addr:value = '5.188.86.194']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.490912Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d22451a3-77f9-4db0-8752-678bf831286a",
+            "created": "2023-05-02T20:04:27.491796Z",
+            "modified": "2023-05-02T20:04:27.491796Z",
+            "name": "5.188.86.235",
+            "pattern": "[ipv4-addr:value = '5.188.86.235']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.491796Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0f61b483-e036-48a7-961a-5d0932875d44",
+            "created": "2023-05-02T20:04:27.492699Z",
+            "modified": "2023-05-02T20:04:27.492699Z",
+            "name": "212.192.240.181",
+            "pattern": "[ipv4-addr:value = '212.192.240.181']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.492699Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--770ea340-4a36-4786-b861-9f7b920b4a73",
+            "created": "2023-05-02T20:04:27.493586Z",
+            "modified": "2023-05-02T20:04:27.493586Z",
+            "name": "195.202.107.144",
+            "pattern": "[ipv4-addr:value = '195.202.107.144']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.493586Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--8c4993cc-6aea-413f-90df-d6f35460afde",
+            "created": "2023-05-02T20:04:27.494355Z",
+            "modified": "2023-05-02T20:04:27.494355Z",
+            "name": "5.8.18.237",
+            "pattern": "[ipv4-addr:value = '5.8.18.237']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.494355Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--2becad83-f2b2-4fe5-8e4b-7b8ec80d8c00",
+            "created": "2023-05-02T20:04:27.49512Z",
+            "modified": "2023-05-02T20:04:27.49512Z",
+            "name": "173.38.210.34",
+            "pattern": "[ipv4-addr:value = '173.38.210.34']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.49512Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d6d90934-279b-4a00-a26b-cf8d35cec5dc",
+            "created": "2023-05-02T20:04:27.495893Z",
+            "modified": "2023-05-02T20:04:27.495893Z",
+            "name": "149.210.175.38",
+            "pattern": "[ipv4-addr:value = '149.210.175.38']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.495893Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ebb8bd70-7be9-4327-ada9-9475b08ba208",
+            "created": "2023-05-02T20:04:27.496772Z",
+            "modified": "2023-05-02T20:04:27.496772Z",
+            "name": "173.38.212.109",
+            "pattern": "[ipv4-addr:value = '173.38.212.109']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.496772Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a511a536-975e-4b47-aba1-6c3830c10859",
+            "created": "2023-05-02T20:04:27.49754Z",
+            "modified": "2023-05-02T20:04:27.49754Z",
+            "name": "45.227.252.243",
+            "pattern": "[ipv4-addr:value = '45.227.252.243']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.49754Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--23e3f8ff-caf8-46bf-8f7c-f5e6e8a35e89",
+            "created": "2023-05-02T20:04:27.498377Z",
+            "modified": "2023-05-02T20:04:27.498377Z",
+            "name": "80.113.9.219",
+            "pattern": "[ipv4-addr:value = '80.113.9.219']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.498377Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--3c6ece0e-0fd1-4415-a5f0-e4980224820c",
+            "created": "2023-05-02T20:04:27.499136Z",
+            "modified": "2023-05-02T20:04:27.499136Z",
+            "name": "147.78.47.135",
+            "pattern": "[ipv4-addr:value = '147.78.47.135']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.499136Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c1692ce9-3bec-4635-a241-e0e6768a4edf",
+            "created": "2023-05-02T20:04:27.499892Z",
+            "modified": "2023-05-02T20:04:27.499892Z",
+            "name": "178.128.141.175",
+            "pattern": "[ipv4-addr:value = '178.128.141.175']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.499892Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b8b48465-8964-430a-8dab-d490441d339d",
+            "created": "2023-05-02T20:04:27.500656Z",
+            "modified": "2023-05-02T20:04:27.500656Z",
+            "name": "134.209.92.85",
+            "pattern": "[ipv4-addr:value = '134.209.92.85']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.500656Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c45a7939-5b75-4e3a-8ba9-74240c793177",
+            "created": "2023-05-02T20:04:27.501366Z",
+            "modified": "2023-05-02T20:04:27.501366Z",
+            "name": "5.188.86.227",
+            "pattern": "[ipv4-addr:value = '5.188.86.227']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.501366Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a58af7a7-c45d-46d6-a820-0cd5828e61af",
+            "created": "2023-05-02T20:04:27.502036Z",
+            "modified": "2023-05-02T20:04:27.502036Z",
+            "name": "34.91.186.44",
+            "pattern": "[ipv4-addr:value = '34.91.186.44']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.502036Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ccb67e37-4ffa-4dc6-8e5b-ebc9578633da",
+            "created": "2023-05-02T20:04:27.502729Z",
+            "modified": "2023-05-02T20:04:27.502729Z",
+            "name": "172.86.75.75",
+            "pattern": "[ipv4-addr:value = '172.86.75.75']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.502729Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a997e73d-1357-431b-9bfa-0736c9768d56",
+            "created": "2023-05-02T20:04:27.503496Z",
+            "modified": "2023-05-02T20:04:27.503496Z",
+            "name": "81.4.114.143",
+            "pattern": "[ipv4-addr:value = '81.4.114.143']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.503496Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c3614577-ca06-4e08-ac61-05273bfb9822",
+            "created": "2023-05-02T20:04:27.504181Z",
+            "modified": "2023-05-02T20:04:27.504181Z",
+            "name": "167.71.73.98",
+            "pattern": "[ipv4-addr:value = '167.71.73.98']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.504181Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b6932e41-4117-4ee2-a2e0-b8eed701e8fc",
+            "created": "2023-05-02T20:04:27.504863Z",
+            "modified": "2023-05-02T20:04:27.504863Z",
+            "name": "185.23.249.87",
+            "pattern": "[ipv4-addr:value = '185.23.249.87']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.504863Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c2433c0a-b97b-4ae6-837d-86090f6801b9",
+            "created": "2023-05-02T20:04:27.505535Z",
+            "modified": "2023-05-02T20:04:27.505535Z",
+            "name": "135.87.23.41",
+            "pattern": "[ipv4-addr:value = '135.87.23.41']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.505535Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--88cfc6ee-c078-480f-8207-388f0e7c238c",
+            "created": "2023-05-02T20:04:27.506204Z",
+            "modified": "2023-05-02T20:04:27.506204Z",
+            "name": "108.61.103.58",
+            "pattern": "[ipv4-addr:value = '108.61.103.58']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.506204Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--acd68696-fa8a-4d37-98c2-82b76b403b20",
+            "created": "2023-05-02T20:04:27.506878Z",
+            "modified": "2023-05-02T20:04:27.506878Z",
+            "name": "2a01:7c8:aaaf:244:5054:ff:febf:65eb",
+            "pattern": "[ipv4-addr:value = '2a01:7c8:aaaf:244:5054:ff:febf:65eb']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.506878Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b76b1267-d500-4d67-acbc-e47a0c5eb123",
+            "created": "2023-05-02T20:04:27.507881Z",
+            "modified": "2023-05-02T20:04:27.507881Z",
+            "name": "80.66.88.127",
+            "pattern": "[ipv4-addr:value = '80.66.88.127']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.507881Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--58e753d0-856e-4de3-bce4-23e64d0a336c",
+            "created": "2023-05-02T20:04:27.508552Z",
+            "modified": "2023-05-02T20:04:27.508552Z",
+            "name": "185.225.74.198",
+            "pattern": "[ipv4-addr:value = '185.225.74.198']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.508552Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c0b72aca-91d5-4aa3-b011-1239f63343bd",
+            "created": "2023-05-02T20:04:27.509192Z",
+            "modified": "2023-05-02T20:04:27.509192Z",
+            "name": "185.225.74.223",
+            "pattern": "[ipv4-addr:value = '185.225.74.223']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.509192Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--652d3d28-74a8-4ed3-bc3e-0f354496bda4",
+            "created": "2023-05-02T20:04:27.509904Z",
+            "modified": "2023-05-02T20:04:27.509904Z",
+            "name": "141.98.6.7",
+            "pattern": "[ipv4-addr:value = '141.98.6.7']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.509904Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ce2da3de-9484-4560-8ea3-f4442213cac1",
+            "created": "2023-05-02T20:04:27.510517Z",
+            "modified": "2023-05-02T20:04:27.510517Z",
+            "name": "170.130.172.35",
+            "pattern": "[ipv4-addr:value = '170.130.172.35']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.510517Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--6aa2ef8d-986b-4ab7-8a72-9084cc6a63e4",
+            "created": "2023-05-02T20:04:27.511142Z",
+            "modified": "2023-05-02T20:04:27.511142Z",
+            "name": "81.161.229.120",
+            "pattern": "[ipv4-addr:value = '81.161.229.120']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.511142Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--9881ff8b-2d40-42af-ab18-b0a713c532e1",
+            "created": "2023-05-02T20:04:27.511759Z",
+            "modified": "2023-05-02T20:04:27.511759Z",
+            "name": "141.98.6.7",
+            "pattern": "[ipv4-addr:value = '141.98.6.7']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.511759Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--37a7b863-a68c-4413-b0ce-1d85cc31fe48",
+            "created": "2023-05-02T20:04:27.512383Z",
+            "modified": "2023-05-02T20:04:27.512383Z",
+            "name": "45.8.145.254",
+            "pattern": "[ipv4-addr:value = '45.8.145.254']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.512383Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--61d215ae-1857-45a2-9f24-6fde8ac71111",
+            "created": "2023-05-02T20:04:27.513011Z",
+            "modified": "2023-05-02T20:04:27.513011Z",
+            "name": "94.131.105.246",
+            "pattern": "[ipv4-addr:value = '94.131.105.246']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.513011Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--172d8916-5aa8-4f35-abd3-1bc228c23bdf",
+            "created": "2023-05-02T20:04:27.513686Z",
+            "modified": "2023-05-02T20:04:27.513686Z",
+            "name": "92.63.196.48",
+            "pattern": "[ipv4-addr:value = '92.63.196.48']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.513686Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--11a83492-e44f-4279-8c24-f7f36f9589c3",
+            "created": "2023-05-02T20:04:27.514297Z",
+            "modified": "2023-05-02T20:04:27.514297Z",
+            "name": "94.131.105.246",
+            "pattern": "[ipv4-addr:value = '94.131.105.246']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.514297Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--53596d73-415d-44ee-b6b1-91c64cfd23f5",
+            "created": "2023-05-02T20:04:27.514908Z",
+            "modified": "2023-05-02T20:04:27.514908Z",
+            "name": "45.88.67.140",
+            "pattern": "[ipv4-addr:value = '45.88.67.140']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.514908Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--db4a8d5d-8f5a-44e2-9703-ab2f5de1a961",
+            "created": "2023-05-02T20:04:27.515561Z",
+            "modified": "2023-05-02T20:04:27.515561Z",
+            "name": "5.255.105.23",
+            "pattern": "[ipv4-addr:value = '5.255.105.23']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.515561Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--546aede2-85e0-4630-9b01-6c7870d5b75a",
+            "created": "2023-05-02T20:04:27.516136Z",
+            "modified": "2023-05-02T20:04:27.516136Z",
+            "name": "45.227.253.20",
+            "pattern": "[ipv4-addr:value = '45.227.253.20']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.516136Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--74d7240f-3132-408f-9544-aac5149963f0",
+            "created": "2023-05-02T20:04:27.51671Z",
+            "modified": "2023-05-02T20:04:27.51671Z",
+            "name": "5.8.18.112",
+            "pattern": "[ipv4-addr:value = '5.8.18.112']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.51671Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--5be1dd6f-1a3d-47b0-96a9-9a3e05ac4c04",
+            "created": "2023-05-02T20:04:27.517282Z",
+            "modified": "2023-05-02T20:04:27.517282Z",
+            "name": "20.126.53.72",
+            "pattern": "[ipv4-addr:value = '20.126.53.72']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.517282Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--8830c9ad-cdea-4993-a98e-c450ac18febb",
+            "created": "2023-05-02T20:04:27.517853Z",
+            "modified": "2023-05-02T20:04:27.517853Z",
+            "name": "46.161.27.160",
+            "pattern": "[ipv4-addr:value = '46.161.27.160']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.517853Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--fbe49372-0a84-4db4-b1ce-a161d1dc4fd7",
+            "created": "2023-05-02T20:04:27.518441Z",
+            "modified": "2023-05-02T20:04:27.518441Z",
+            "name": "45.140.147.30",
+            "pattern": "[ipv4-addr:value = '45.140.147.30']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.518441Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--9dd433b8-1f3b-430b-a19b-290d58e6380a",
+            "created": "2023-05-02T20:04:27.519024Z",
+            "modified": "2023-05-02T20:04:27.519024Z",
+            "name": "5.8.18.240",
+            "pattern": "[ipv4-addr:value = '5.8.18.240']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.519024Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--4b8fd459-895e-49cd-92f8-4d046fa82d23",
+            "created": "2023-05-02T20:04:27.51962Z",
+            "modified": "2023-05-02T20:04:27.51962Z",
+            "name": "5.8.18.240",
+            "pattern": "[ipv4-addr:value = '5.8.18.240']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.51962Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d1170062-1617-4415-9778-6f25ac9b4ff0",
+            "created": "2023-05-02T20:04:27.520194Z",
+            "modified": "2023-05-02T20:04:27.520194Z",
+            "name": "46.161.27.160",
+            "pattern": "[ipv4-addr:value = '46.161.27.160']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.520194Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--4ecfbf92-9716-4e98-9053-18f93cb3ee6b",
+            "created": "2023-05-02T20:04:27.520847Z",
+            "modified": "2023-05-02T20:04:27.520847Z",
+            "name": "212.193.30.14",
+            "pattern": "[ipv4-addr:value = '212.193.30.14']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.520847Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--75e4d5ce-8474-4186-8b1d-8fc0c6252a39",
+            "created": "2023-05-02T20:04:27.521394Z",
+            "modified": "2023-05-02T20:04:27.521394Z",
+            "name": "45.227.255.116",
+            "pattern": "[ipv4-addr:value = '45.227.255.116']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.521394Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--cb09ee81-a6c4-448f-9bbf-c818f0f2fa6f",
+            "created": "2023-05-02T20:04:27.521937Z",
+            "modified": "2023-05-02T20:04:27.521937Z",
+            "name": "185.254.37.251",
+            "pattern": "[ipv4-addr:value = '185.254.37.251']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.521937Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--6b358c58-cf4c-4791-8729-d8c82645402c",
+            "created": "2023-05-02T20:04:27.522493Z",
+            "modified": "2023-05-02T20:04:27.522493Z",
+            "name": "45.227.252.9",
+            "pattern": "[ipv4-addr:value = '45.227.252.9']",
+            "pattern_type": "stix",
+            "labels": [
+                "CobaltStrike",
+                "Beacon",
+                "Netherlands"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:04:27.522493Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0a33c382-634a-4800-bbc9-ab40631e9c63",
+            "created": "2023-05-02T20:04:27.46737Z",
+            "modified": "2023-05-02T20:04:27.46737Z",
+            "relationship_type": "uses",
+            "source_ref": "tool--185c53fa-c397-4022-928a-d76ab5c0cd07",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7999b265-9be1-4155-830b-3c832f2a9f08",
+            "created": "2023-05-02T20:04:27.480804Z",
+            "modified": "2023-05-02T20:04:27.480804Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--e56ff0c2-6bf6-4fb0-8f18-35dec598de21",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--411e2c15-3835-42fa-8a9c-7e6f4bf88514",
+            "created": "2023-05-02T20:04:27.482353Z",
+            "modified": "2023-05-02T20:04:27.482353Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--123b4982-a1ca-4bf5-9dea-a789ecc6004c",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--362bc4cc-2ade-4446-aa62-a796fa6363d4",
+            "created": "2023-05-02T20:04:27.483731Z",
+            "modified": "2023-05-02T20:04:27.483731Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--c82a1c7e-43c5-4a76-9ec0-afa80c976709",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--774ddfe4-d714-45be-9831-350a67e45f40",
+            "created": "2023-05-02T20:04:27.484934Z",
+            "modified": "2023-05-02T20:04:27.484934Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--6da4f1ae-b822-4dc9-b3d2-6a36eb389b0b",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a2c24fbe-e059-49cf-aed2-17f38f491e1f",
+            "created": "2023-05-02T20:04:27.485866Z",
+            "modified": "2023-05-02T20:04:27.485866Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--1159f138-2e24-4fa0-b871-eeed97e3864c",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d917c199-218f-40a8-bb82-d67d04939ac4",
+            "created": "2023-05-02T20:04:27.486774Z",
+            "modified": "2023-05-02T20:04:27.486774Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--3d175ad0-6dbe-4348-a790-3123bd8a012e",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--074f1813-239e-4b73-8925-68e6c9309fcc",
+            "created": "2023-05-02T20:04:27.487782Z",
+            "modified": "2023-05-02T20:04:27.487782Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--9ee1130e-ba72-4b41-ac8a-9d0747fc328e",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f0f2e97c-1984-43ac-b445-961a0fbe57a2",
+            "created": "2023-05-02T20:04:27.48892Z",
+            "modified": "2023-05-02T20:04:27.48892Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--40efeed6-4384-45c6-b748-cf9d7ba5cf60",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6bcd6386-6920-417f-82e5-ecc0423f1395",
+            "created": "2023-05-02T20:04:27.489839Z",
+            "modified": "2023-05-02T20:04:27.489839Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--45b60aa0-10a3-4650-b251-68ad6462ae2f",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--47521677-95f9-4c53-81fc-3e536ada13d6",
+            "created": "2023-05-02T20:04:27.490735Z",
+            "modified": "2023-05-02T20:04:27.490735Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--01e83e4d-8706-42c4-a4ac-30a81ef1d972",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--87b1801a-fff9-44bb-80a2-3dbdc3a38be8",
+            "created": "2023-05-02T20:04:27.491628Z",
+            "modified": "2023-05-02T20:04:27.491628Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--b3bace10-830d-4bc5-b6b9-9e79b830e48b",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d3442afe-67dc-4788-a696-eff914961eef",
+            "created": "2023-05-02T20:04:27.492524Z",
+            "modified": "2023-05-02T20:04:27.492524Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--d22451a3-77f9-4db0-8752-678bf831286a",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0706fbe8-9e5d-4946-858b-b179e7817a7e",
+            "created": "2023-05-02T20:04:27.493431Z",
+            "modified": "2023-05-02T20:04:27.493431Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--0f61b483-e036-48a7-961a-5d0932875d44",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--91a3209c-fc09-4eee-a39a-6b21b39c71b8",
+            "created": "2023-05-02T20:04:27.494205Z",
+            "modified": "2023-05-02T20:04:27.494205Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--770ea340-4a36-4786-b861-9f7b920b4a73",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3eb18903-57e1-44db-931a-bbb154fa654e",
+            "created": "2023-05-02T20:04:27.494975Z",
+            "modified": "2023-05-02T20:04:27.494975Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--8c4993cc-6aea-413f-90df-d6f35460afde",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4eadb1e9-9a68-4960-a2a9-1abdd141b0cc",
+            "created": "2023-05-02T20:04:27.495747Z",
+            "modified": "2023-05-02T20:04:27.495747Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--2becad83-f2b2-4fe5-8e4b-7b8ec80d8c00",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--62be4a81-e9f1-4731-bbdc-9ea99f44bbcd",
+            "created": "2023-05-02T20:04:27.496626Z",
+            "modified": "2023-05-02T20:04:27.496626Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--d6d90934-279b-4a00-a26b-cf8d35cec5dc",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--960c1ae3-ceee-4520-8d92-64709b0c3268",
+            "created": "2023-05-02T20:04:27.497396Z",
+            "modified": "2023-05-02T20:04:27.497396Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--ebb8bd70-7be9-4327-ada9-9475b08ba208",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ba0c27e9-1d4d-4c58-9d0d-7fb5cef11b73",
+            "created": "2023-05-02T20:04:27.498232Z",
+            "modified": "2023-05-02T20:04:27.498232Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--a511a536-975e-4b47-aba1-6c3830c10859",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--60160f95-c456-43c5-95f4-3b50b5bf2a2b",
+            "created": "2023-05-02T20:04:27.498989Z",
+            "modified": "2023-05-02T20:04:27.498989Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--23e3f8ff-caf8-46bf-8f7c-f5e6e8a35e89",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8740d2dd-7c15-4855-90b8-7dd63bc4edfc",
+            "created": "2023-05-02T20:04:27.499749Z",
+            "modified": "2023-05-02T20:04:27.499749Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--3c6ece0e-0fd1-4415-a5f0-e4980224820c",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--24092a9b-5b07-4889-ad1b-09282449f870",
+            "created": "2023-05-02T20:04:27.500511Z",
+            "modified": "2023-05-02T20:04:27.500511Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--c1692ce9-3bec-4635-a241-e0e6768a4edf",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c23df997-dd34-4965-8de1-c09a495e7062",
+            "created": "2023-05-02T20:04:27.501236Z",
+            "modified": "2023-05-02T20:04:27.501236Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--b8b48465-8964-430a-8dab-d490441d339d",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0cea7993-a028-4fa5-b25f-8973d0e37069",
+            "created": "2023-05-02T20:04:27.501909Z",
+            "modified": "2023-05-02T20:04:27.501909Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--c45a7939-5b75-4e3a-8ba9-74240c793177",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--85d0bb0a-e8b9-4e31-ade7-0f0a2ab349d0",
+            "created": "2023-05-02T20:04:27.502592Z",
+            "modified": "2023-05-02T20:04:27.502592Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--a58af7a7-c45d-46d6-a820-0cd5828e61af",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--75e54c0d-52be-4204-81a9-6ac6739d8de5",
+            "created": "2023-05-02T20:04:27.503369Z",
+            "modified": "2023-05-02T20:04:27.503369Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--ccb67e37-4ffa-4dc6-8e5b-ebc9578633da",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f06206da-6af9-4a19-ad58-04422ec3dd01",
+            "created": "2023-05-02T20:04:27.504048Z",
+            "modified": "2023-05-02T20:04:27.504048Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--a997e73d-1357-431b-9bfa-0736c9768d56",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7d9daa42-35d7-41e6-88e6-59845b613008",
+            "created": "2023-05-02T20:04:27.50473Z",
+            "modified": "2023-05-02T20:04:27.50473Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--c3614577-ca06-4e08-ac61-05273bfb9822",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b7ffc9df-47cf-4f0a-b172-3e6ac42ab810",
+            "created": "2023-05-02T20:04:27.505407Z",
+            "modified": "2023-05-02T20:04:27.505407Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--b6932e41-4117-4ee2-a2e0-b8eed701e8fc",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b53ff0d1-13f2-48af-badb-01b30c85efa5",
+            "created": "2023-05-02T20:04:27.506078Z",
+            "modified": "2023-05-02T20:04:27.506078Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--c2433c0a-b97b-4ae6-837d-86090f6801b9",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0057e375-6300-4492-ae25-e308533cac2d",
+            "created": "2023-05-02T20:04:27.506749Z",
+            "modified": "2023-05-02T20:04:27.506749Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--88cfc6ee-c078-480f-8207-388f0e7c238c",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--439d437a-7be2-4a3d-b014-bcbab73e6147",
+            "created": "2023-05-02T20:04:27.507749Z",
+            "modified": "2023-05-02T20:04:27.507749Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--acd68696-fa8a-4d37-98c2-82b76b403b20",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c427748a-5cdd-4057-bb2e-b0c2bb770d67",
+            "created": "2023-05-02T20:04:27.508425Z",
+            "modified": "2023-05-02T20:04:27.508425Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--b76b1267-d500-4d67-acbc-e47a0c5eb123",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2657fbae-9123-4b74-976d-6cfec0fea469",
+            "created": "2023-05-02T20:04:27.509071Z",
+            "modified": "2023-05-02T20:04:27.509071Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--58e753d0-856e-4de3-bce4-23e64d0a336c",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7ffdad2b-f355-4d0b-b028-edc940b4eb69",
+            "created": "2023-05-02T20:04:27.509787Z",
+            "modified": "2023-05-02T20:04:27.509787Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--c0b72aca-91d5-4aa3-b011-1239f63343bd",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6a6ff66c-7f97-4cf3-aa89-992f7e7467ca",
+            "created": "2023-05-02T20:04:27.5104Z",
+            "modified": "2023-05-02T20:04:27.5104Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--652d3d28-74a8-4ed3-bc3e-0f354496bda4",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--55bd4cc6-04f4-40a3-837d-b7116e34434b",
+            "created": "2023-05-02T20:04:27.511019Z",
+            "modified": "2023-05-02T20:04:27.511019Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--ce2da3de-9484-4560-8ea3-f4442213cac1",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bd68726f-da47-4432-8672-62e681f613a0",
+            "created": "2023-05-02T20:04:27.511643Z",
+            "modified": "2023-05-02T20:04:27.511643Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--6aa2ef8d-986b-4ab7-8a72-9084cc6a63e4",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9c0517c1-e519-4bb3-88b8-73b6833ce93a",
+            "created": "2023-05-02T20:04:27.512252Z",
+            "modified": "2023-05-02T20:04:27.512252Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--9881ff8b-2d40-42af-ab18-b0a713c532e1",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fb94429c-2150-4c3e-ae8f-48879dff1374",
+            "created": "2023-05-02T20:04:27.512891Z",
+            "modified": "2023-05-02T20:04:27.512891Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--37a7b863-a68c-4413-b0ce-1d85cc31fe48",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--964d4d5c-e5d6-4b20-b496-71ef2a824950",
+            "created": "2023-05-02T20:04:27.513568Z",
+            "modified": "2023-05-02T20:04:27.513568Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--61d215ae-1857-45a2-9f24-6fde8ac71111",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b5267ce6-2536-485e-86d1-d3496aeece11",
+            "created": "2023-05-02T20:04:27.51418Z",
+            "modified": "2023-05-02T20:04:27.51418Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--172d8916-5aa8-4f35-abd3-1bc228c23bdf",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5c0e892a-58fd-4e73-b055-8c6dfd184972",
+            "created": "2023-05-02T20:04:27.514797Z",
+            "modified": "2023-05-02T20:04:27.514797Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--11a83492-e44f-4279-8c24-f7f36f9589c3",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--40e74869-b7d9-43c2-b0e3-89e9f74da6f6",
+            "created": "2023-05-02T20:04:27.515452Z",
+            "modified": "2023-05-02T20:04:27.515452Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--53596d73-415d-44ee-b6b1-91c64cfd23f5",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c7fc9eda-6491-4726-8774-4ab946f4178e",
+            "created": "2023-05-02T20:04:27.516024Z",
+            "modified": "2023-05-02T20:04:27.516024Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--db4a8d5d-8f5a-44e2-9703-ab2f5de1a961",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0384eb70-819b-4772-88f4-4cccf660b82c",
+            "created": "2023-05-02T20:04:27.5166Z",
+            "modified": "2023-05-02T20:04:27.5166Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--546aede2-85e0-4630-9b01-6c7870d5b75a",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9a86558e-8ab2-499e-89f3-db0328002387",
+            "created": "2023-05-02T20:04:27.51717Z",
+            "modified": "2023-05-02T20:04:27.51717Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--74d7240f-3132-408f-9544-aac5149963f0",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a16c6177-b042-41ed-aa54-54d9fe2444e6",
+            "created": "2023-05-02T20:04:27.517744Z",
+            "modified": "2023-05-02T20:04:27.517744Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--5be1dd6f-1a3d-47b0-96a9-9a3e05ac4c04",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ad861e4f-b17d-4ee0-b85d-1ef8fd9b094d",
+            "created": "2023-05-02T20:04:27.518323Z",
+            "modified": "2023-05-02T20:04:27.518323Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--8830c9ad-cdea-4993-a98e-c450ac18febb",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--afdc106c-1722-46fc-a8ae-d74a943c0089",
+            "created": "2023-05-02T20:04:27.51891Z",
+            "modified": "2023-05-02T20:04:27.51891Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--fbe49372-0a84-4db4-b1ce-a161d1dc4fd7",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--099d3384-04b4-4b12-b6df-2a901eed1df1",
+            "created": "2023-05-02T20:04:27.519509Z",
+            "modified": "2023-05-02T20:04:27.519509Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--9dd433b8-1f3b-430b-a19b-290d58e6380a",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f770cb9b-bc18-4a83-9bbd-12427784135a",
+            "created": "2023-05-02T20:04:27.520085Z",
+            "modified": "2023-05-02T20:04:27.520085Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--4b8fd459-895e-49cd-92f8-4d046fa82d23",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6fbb6d17-b4c0-4826-a18f-a8c163d8b9be",
+            "created": "2023-05-02T20:04:27.520737Z",
+            "modified": "2023-05-02T20:04:27.520737Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--d1170062-1617-4415-9778-6f25ac9b4ff0",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9c45fd22-cb20-4165-b20d-f7e856504aaf",
+            "created": "2023-05-02T20:04:27.521287Z",
+            "modified": "2023-05-02T20:04:27.521287Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--4ecfbf92-9716-4e98-9053-18f93cb3ee6b",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--be5b9076-80e6-4531-a472-708855281958",
+            "created": "2023-05-02T20:04:27.521833Z",
+            "modified": "2023-05-02T20:04:27.521833Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--75e4d5ce-8474-4186-8b1d-8fc0c6252a39",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e8d08edb-1159-4b78-9e9b-1adebe03666d",
+            "created": "2023-05-02T20:04:27.522387Z",
+            "modified": "2023-05-02T20:04:27.522387Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--cb09ee81-a6c4-448f-9bbf-c818f0f2fa6f",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8928d5db-130f-4db2-bdea-ec67ce10e6d4",
+            "created": "2023-05-02T20:04:27.522933Z",
+            "modified": "2023-05-02T20:04:27.522933Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--6b358c58-cf4c-4791-8729-d8c82645402c",
+            "target_ref": "infrastructure--9b3c6477-b1ee-45d3-b6c4-20fc8abdbf2f"
+        }
+    ]
+}

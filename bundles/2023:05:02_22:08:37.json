@@ -1,0 +1,269 @@
+{
+    "type": "bundle",
+    "id": "bundle--bbac9ac7-1705-45fa-8169-71c2cb7e48f8",
+    "objects": [
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--94c87908-5bef-41f8-afd0-e4a2f20cbc34",
+            "created": "2023-05-02T20:08:37.145168Z",
+            "modified": "2023-05-02T20:08:37.145168Z",
+            "name": "Titan Stealer Infrastructure",
+            "labels": [
+                "Titan",
+                "Stealer",
+                "C2",
+                "Panel"
+            ]
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--2dfc36b9-680d-4f4c-8be7-cdbb0facaf5b",
+            "created": "2023-05-02T20:08:37.14631Z",
+            "modified": "2023-05-02T20:08:37.14631Z",
+            "name": "query_malware",
+            "is_family": false,
+            "labels": [
+                "Titan",
+                "Stealer",
+                "C2",
+                "Panel"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c9ba9fae-ae67-4028-8169-ec6ac3b315d6",
+            "created": "2023-05-02T20:08:37.148234Z",
+            "modified": "2023-05-02T20:08:37.148234Z",
+            "name": "128.140.3.146",
+            "pattern": "[ipv4-addr:value = '128.140.3.146']",
+            "pattern_type": "stix",
+            "labels": [
+                "Titan",
+                "Stealer",
+                "C2",
+                "Panel"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:08:37.148234Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--58a6eb60-427e-44dd-bd3b-f09a1e07b7c7",
+            "created": "2023-05-02T20:08:37.166295Z",
+            "modified": "2023-05-02T20:08:37.166295Z",
+            "name": "86.105.252.128",
+            "pattern": "[ipv4-addr:value = '86.105.252.128']",
+            "pattern_type": "stix",
+            "labels": [
+                "Titan",
+                "Stealer",
+                "C2",
+                "Panel"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:08:37.166295Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--47c14fc0-bb88-497c-bd6a-229c508a6e2c",
+            "created": "2023-05-02T20:08:37.16795Z",
+            "modified": "2023-05-02T20:08:37.16795Z",
+            "name": "45.15.156.137",
+            "pattern": "[ipv4-addr:value = '45.15.156.137']",
+            "pattern_type": "stix",
+            "labels": [
+                "Titan",
+                "Stealer",
+                "C2",
+                "Panel"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:08:37.16795Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b54abbd6-ddd4-4072-ab67-7332a8d7af2f",
+            "created": "2023-05-02T20:08:37.169287Z",
+            "modified": "2023-05-02T20:08:37.169287Z",
+            "name": "185.106.94.102",
+            "pattern": "[ipv4-addr:value = '185.106.94.102']",
+            "pattern_type": "stix",
+            "labels": [
+                "Titan",
+                "Stealer",
+                "C2",
+                "Panel"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:08:37.169287Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0bf16a60-6a99-4740-b2ee-50aa2ed0c137",
+            "created": "2023-05-02T20:08:37.170442Z",
+            "modified": "2023-05-02T20:08:37.170442Z",
+            "name": "159.69.84.195",
+            "pattern": "[ipv4-addr:value = '159.69.84.195']",
+            "pattern_type": "stix",
+            "labels": [
+                "Titan",
+                "Stealer",
+                "C2",
+                "Panel"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:08:37.170442Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--822ef393-bfca-4765-9e3f-6c560fb7a9ca",
+            "created": "2023-05-02T20:08:37.171491Z",
+            "modified": "2023-05-02T20:08:37.171491Z",
+            "name": "80.85.241.24",
+            "pattern": "[ipv4-addr:value = '80.85.241.24']",
+            "pattern_type": "stix",
+            "labels": [
+                "Titan",
+                "Stealer",
+                "C2",
+                "Panel"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:08:37.171491Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--3953331e-19f9-42f7-8d8c-bbaebc0395fa",
+            "created": "2023-05-02T20:08:37.173772Z",
+            "modified": "2023-05-02T20:08:37.173772Z",
+            "name": "94.142.138.10",
+            "pattern": "[ipv4-addr:value = '94.142.138.10']",
+            "pattern_type": "stix",
+            "labels": [
+                "Titan",
+                "Stealer",
+                "C2",
+                "Panel"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:08:37.173772Z"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c2e9ab0d-57c0-4f13-97fb-18a3032ec945",
+            "created": "2023-05-02T20:08:37.174853Z",
+            "modified": "2023-05-02T20:08:37.174853Z",
+            "name": "82.115.223.71",
+            "pattern": "[ipv4-addr:value = '82.115.223.71']",
+            "pattern_type": "stix",
+            "labels": [
+                "Titan",
+                "Stealer",
+                "C2",
+                "Panel"
+            ],
+            "pattern_version": "2.1",
+            "valid_from": "2023-05-02T20:08:37.174853Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--481410c6-11a1-4c8d-9a41-96e831b7975c",
+            "created": "2023-05-02T20:08:37.147009Z",
+            "modified": "2023-05-02T20:08:37.147009Z",
+            "relationship_type": "uses",
+            "source_ref": "malware--2dfc36b9-680d-4f4c-8be7-cdbb0facaf5b",
+            "target_ref": "infrastructure--94c87908-5bef-41f8-afd0-e4a2f20cbc34"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--02fd9ec7-ae28-410a-b4d9-e199c22c65d2",
+            "created": "2023-05-02T20:08:37.16591Z",
+            "modified": "2023-05-02T20:08:37.16591Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--c9ba9fae-ae67-4028-8169-ec6ac3b315d6",
+            "target_ref": "infrastructure--94c87908-5bef-41f8-afd0-e4a2f20cbc34"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f5837a20-015f-4f74-bd7c-5194d7fc13cd",
+            "created": "2023-05-02T20:08:37.167688Z",
+            "modified": "2023-05-02T20:08:37.167688Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--58a6eb60-427e-44dd-bd3b-f09a1e07b7c7",
+            "target_ref": "infrastructure--94c87908-5bef-41f8-afd0-e4a2f20cbc34"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dc00599f-dd9b-49d1-9600-5fedec6de0a2",
+            "created": "2023-05-02T20:08:37.169082Z",
+            "modified": "2023-05-02T20:08:37.169082Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--47c14fc0-bb88-497c-bd6a-229c508a6e2c",
+            "target_ref": "infrastructure--94c87908-5bef-41f8-afd0-e4a2f20cbc34"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--54c150d9-0f2c-49ee-8403-77982a7f9d8a",
+            "created": "2023-05-02T20:08:37.170241Z",
+            "modified": "2023-05-02T20:08:37.170241Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--b54abbd6-ddd4-4072-ab67-7332a8d7af2f",
+            "target_ref": "infrastructure--94c87908-5bef-41f8-afd0-e4a2f20cbc34"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ecc3a7f4-875e-4fd3-bc42-42a7a9a8713d",
+            "created": "2023-05-02T20:08:37.171298Z",
+            "modified": "2023-05-02T20:08:37.171298Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--0bf16a60-6a99-4740-b2ee-50aa2ed0c137",
+            "target_ref": "infrastructure--94c87908-5bef-41f8-afd0-e4a2f20cbc34"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6e999423-5243-4704-9019-d86056c47901",
+            "created": "2023-05-02T20:08:37.173553Z",
+            "modified": "2023-05-02T20:08:37.173553Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--822ef393-bfca-4765-9e3f-6c560fb7a9ca",
+            "target_ref": "infrastructure--94c87908-5bef-41f8-afd0-e4a2f20cbc34"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--077a73aa-7922-48ac-bb45-7cf3eaada14c",
+            "created": "2023-05-02T20:08:37.174675Z",
+            "modified": "2023-05-02T20:08:37.174675Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--3953331e-19f9-42f7-8d8c-bbaebc0395fa",
+            "target_ref": "infrastructure--94c87908-5bef-41f8-afd0-e4a2f20cbc34"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bf50a40a-8127-43db-8628-ff4e13d25017",
+            "created": "2023-05-02T20:08:37.175607Z",
+            "modified": "2023-05-02T20:08:37.175607Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--c2e9ab0d-57c0-4f13-97fb-18a3032ec945",
+            "target_ref": "infrastructure--94c87908-5bef-41f8-afd0-e4a2f20cbc34"
+        }
+    ]
+}
